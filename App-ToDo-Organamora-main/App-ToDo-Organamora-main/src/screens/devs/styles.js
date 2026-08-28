@@ -1,0 +1,106 @@
+import { StyleSheet } from 'react-native';
+
+export const devStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    color: '#f5f3ff',
+    fontFamily: 'System',
+    letterSpacing: 0.7,
+    textAlign: 'center',
+  },
+  searchBar: {
+    height: 50,
+    borderWidth: 1,
+    borderColor: 'rgba(103, 232, 249, 0.35)',
+    borderRadius: 14,
+    paddingHorizontal: 20,
+    marginBottom: 20,
+    fontSize: 16,
+    backgroundColor: 'rgba(255, 255, 255, 0.08)',
+    color: '#f5f3ff',
+    fontFamily: 'System',
+  },
+  devList: {
+    flex: 1,
+    marginBottom: 20,
+  },
+  devCard: {
+    backgroundColor: 'rgba(30, 27, 75, 0.72)',
+    padding: 15,
+    borderRadius: 12,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: 'rgba(103, 232, 249, 0.25)',
+    shadowColor: '#22d3ee',
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.2,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+  devHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+  devAvatar: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    marginRight: 15,
+    backgroundColor: '#312e81',
+    borderWidth: 1,
+    borderColor: 'rgba(103, 232, 249, 0.55)',
+  },
+  devInfo: {
+    flex: 1,
+  },
+  devName: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#f5f3ff',
+    fontFamily: 'System',
+    marginBottom: 5,
+  },
+  devFuncao: {
+    fontSize: 14,
+    color: '#a5b4fc',
+    marginBottom: 3,
+  },
+  devId: {
+    fontSize: 12,
+    color: '#999',
+  },
+  devFrase: {
+    fontSize: 14,
+    color: '#c4b5fd',
+    fontStyle: 'italic',
+    marginTop: 10,
+    paddingTop: 10,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(103, 232, 249, 0.2)',
+  },
+  emptyText: {
+    textAlign: 'center',
+    fontSize: 16,
+    color: '#a5b4fc',
+    marginTop: 50,
+  },
+  button: {
+    backgroundColor: '#007AFF',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  }
+});

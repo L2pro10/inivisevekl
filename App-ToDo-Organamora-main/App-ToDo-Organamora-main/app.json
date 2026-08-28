@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Aetheria Tech",
+    "slug": "aetheria-tech",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/aetheria-tech.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09071a"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "webpack"
+    }
+  }
+}
